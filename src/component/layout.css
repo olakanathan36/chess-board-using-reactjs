@@ -1,0 +1,43 @@
+.chessboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 32px;
+}
+
+.white {
+    background-color: #f0d9b5;
+}
+
+.black {
+    background-color: #b58863;
+}
+
+.team1 {
+    color: #2c1802; 
+}
+
+.team2 {
+    color: #510707; 
+}
+
+.fa-chess-pawn, .fa-chess-rook, .fa-chess-knight, .fa-chess-bishop, .fa-chess-queen, .fa-chess-king {
+    font-size: 36px;
+}
+
+.chessboard table {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
